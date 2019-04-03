@@ -1,0 +1,11 @@
+## Interface: 80100
+## Title: Asentenceintroduction
+## Notes: 一句话攻略
+## SavedVariables: Asentenceintroduction
+## SavedVariablesPerCharacter: Asentenceintroduction
+## OptionalDeps: Asentenceintroduction
+## Author: JANY
+## DefaultState: EnabledS
+
+# Addon
+Asentenceintroduction.lua
