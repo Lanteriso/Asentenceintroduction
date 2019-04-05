@@ -36,6 +36,7 @@ InterfaceOptions_AddCategory(JA_Options)
 if GetLocale() == "zhCN" then
 	Raiders_List = {
 			["怪物"] = {
+				{name = "巨钳蝎", raiders = "测试：发现了这个狗"},
 				{name = "测试：被诅咒的黑暗犬", raiders = "测试：提前和队伍商量好是一起顺时针跑还是用技能往回传送。"},
 			},
 			["技能"] = {
@@ -160,7 +161,7 @@ function SendBossNotes(bossname)
 			--DEFAULT_CHAT_FRAME:AddMessage(bossname, "say");
 			--DEFAULT_CHAT_FRAME:AddMessage(raidersText, "say");
 		else
-			SendChatMessage(bossname .. raidersText, "say");
+			SendChatMessage(bossname .. raidersText, "YELL");
 			--SendChatMessage(raidersText, "say");
 			--DEFAULT_CHAT_FRAME:AddMessage(bossname, "say");
 			--DEFAULT_CHAT_FRAME:AddMessage(raidersText, "say");
